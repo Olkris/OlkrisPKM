@@ -231,7 +231,7 @@ plugins:
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: true
+      hidePropertiesView: false
       delimiters: ---
       language: yaml
     order: 5
