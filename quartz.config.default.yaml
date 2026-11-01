@@ -232,15 +232,12 @@ plugins:
         - aliases
       excludedProperties:
         - publish
-        - permalink
-        - slug
-        - tags
-        - created
-        - modified
-        - published
         - share_link
         - share_updated
         - title
+        - description
+        - permalink
+        - tags
         - QuickResume
       hidePropertiesView: false
       delimiters: ---
