@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Olkris's Digital Garden
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: quartz.jzhao.xyz
+  baseUrl: notes.olkris.party
   ignorePatterns:
     - private
     - templates
@@ -225,13 +225,13 @@ plugins:
   - source: "@quartz-community/note-properties"
     enabled: true
     options:
-      includeAll: false
+      includeAll: true
       includedProperties:
         - description
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: ---
       language: yaml
     order: 5
