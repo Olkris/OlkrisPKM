@@ -159,7 +159,7 @@ plugins:
       position: beforeBody
       priority: 10
   - source: "@quartz-community/content-meta"
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 20
@@ -203,8 +203,8 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/olkris
+        RSS feed: https://notes.olkris.party/index.xml
     layout:
       position: footer
       priority: 50
@@ -238,6 +238,8 @@ plugins:
         - created
         - modified
         - published
+        - share_link
+        - share_updated
       hidePropertiesView: false
       delimiters: ---
       language: yaml
