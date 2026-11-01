@@ -192,7 +192,7 @@ plugins:
       priority: 5
       condition: not-index
   - source: "@quartz-community/comments"
-    enabled: true
+    enabled: false
     options:
       provider: giscus
       options: {}
@@ -219,7 +219,7 @@ plugins:
       priority: 25
       display: mobile-only
   - source: "@quartz-community/bases-page"
-    enabled: false
+    enabled: true
     options: {}
     order: 50
   - source: "@quartz-community/note-properties"
@@ -241,6 +241,7 @@ plugins:
         - share_link
         - share_updated
         - title
+        - QuickResume
       hidePropertiesView: false
       delimiters: ---
       language: yaml
