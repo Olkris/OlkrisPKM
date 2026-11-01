@@ -232,6 +232,11 @@ plugins:
         - aliases
       excludedProperties:
         - publish
+        - permalink
+        - slug
+        - created
+        - modified
+        - published
       hidePropertiesView: false
       delimiters: ---
       language: yaml
