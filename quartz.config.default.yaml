@@ -234,6 +234,9 @@ plugins:
         - publish
         - share_link
         - share_updated
+        - created
+        - modified
+        - published
         - title
         - description
         - permalink
